@@ -1,5 +1,5 @@
 FROM arm64v8/openjdk:jre-slim
-ARG ICT_VERSION=0.5.1
+ARG ICT_VERSION=0.6
 RUN apt-get update \
     && apt-get install nano wget -y \
     && rm -rf /var/lib/apt/lists/*
